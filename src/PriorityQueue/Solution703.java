@@ -20,10 +20,10 @@ public class Solution703 {
     public int add(int val) {
         if (queue.size() < k) {
             queue.add(val);
-        } else if (val > queue.peek()) {
+        } else if (val > queue.element()) {
             queue.poll();
             queue.add(val);
         }
-        return queue.peek();
+        return queue.element();
     }
 }
