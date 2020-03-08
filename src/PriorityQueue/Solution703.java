@@ -7,10 +7,12 @@ import java.util.PriorityQueue;
  */
 public class Solution703 {
 
+}
+class KthLargest {
     private final PriorityQueue<Integer> queue;
     private final int k;
 
-    public Solution703(int k, int[] nums) {
+    public KthLargest(int k, int[] nums) {
         this.k = k;
         queue = new PriorityQueue<>(k);
         for (int i : nums)
