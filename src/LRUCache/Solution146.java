@@ -9,7 +9,7 @@ import java.util.Map;
  * @author Steph
  * @date 2020/2/13 21:57
  */
-public class Solution_146 {
+public class Solution146 {
 
 }
 

@@ -6,7 +6,7 @@ import java.util.Deque;
 /**
  * 225. Implement Stack using Queues
  */
-public class Solution_225 {
+public class Solution225 {
 }
 
 class MyStack {
@@ -25,12 +25,12 @@ class MyStack {
 
     /** Removes the element on top of the stack and returns that element. */
     public int pop() {
-        return q.pollLast();
+        return q.removeLast();
     }
 
     /** Get the top element. */
     public int top() {
-        return q.peekLast();
+        return q.getLast();
     }
 
     /** Returns whether the stack is empty. */
