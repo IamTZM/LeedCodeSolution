@@ -3,7 +3,7 @@ package com.example.String;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sloution6 {
+public class Solution6 {
 
     public static String convert(String s, int numRows) {
         if (s == null || s.length() <= 2 || numRows == 1) {
