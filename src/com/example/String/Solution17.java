@@ -28,6 +28,9 @@ public class Solution17 {
 
     public List<String> letterCombinations2(String digits) {
         List<String> res = new LinkedList<>();
+        if (digits.length() == 0) {
+            return res;
+        }
         combine("", digits, 0, res);
         return res;
     }
